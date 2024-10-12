@@ -1,0 +1,29 @@
+.todo-list {
+    display: flex;
+    width: 25rem;;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding:10px;
+    margin-bottom:1rem;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.todo-button {
+    cursor:pointer;
+    color:blue;
+    background: white;
+    opacity:1;
+
+    &:hover {
+        opacity:0.4;
+       
+    }
+}
+
+.todo-heading {
+    text-align: center;
+}
